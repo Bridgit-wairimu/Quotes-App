@@ -1,7 +1,16 @@
-body{
+.container{
     background-image: url("../assets/photo-1.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+
+  h1{
+    color: white;
+    font-family: 'Yesteryear', cursive, serif;
+  }
+   
+  app-quote{
+    color: white;
   }
