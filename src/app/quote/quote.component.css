@@ -1,3 +1,8 @@
 .btn-success{
     background-color: plum;
 }
+
+h2,p{
+    font-size: medium;
+    font-family: 'Architects Daughter', cursive;
+}
