@@ -1,0 +1,47 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="container-fluid">
+    
+            <h2 class="text-center">Write some quotes</h2>
+            <hr>
+            <form (ngSubmit)="submitQuote()" class="formaction">
+        
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" required class="form-control" id="name" >
+                </div>
+        
+                <div class="form-group">
+                    <label for="quote">Quote</label>
+                    <textarea class="form-control" id="quote"required></textarea>
+                </div>
+        
+                <div class="form-group">
+                    <label for="author">Author</label>
+                    <textarea class="form-control" id="author"  required></textarea>
+                </div>
+        
+                
+        
+                <button type="submit" class=" btn  btn-success bnt-block btn-lg">Add Quote</button>
+            </form>
+            <div>
+            </div>
+        
+            <hr>
+            <div>
+                <h2>My quotes</h2>
+                <div *ngFor='let quote of quotes'>
+                    <h3> {{ quote.formName }}</h3>
+                        <p> {{ quote.formQuote }} </p>
+                        <small> {{ quote.formAuthor }}  </small>
+                        <small>{{ quote.published }}</small>
+                </div>
+            </div>
+          </div>
+        
+    </div>
+</div>
+
+  
+  
