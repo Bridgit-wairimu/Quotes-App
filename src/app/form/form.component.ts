@@ -1,3 +1,4 @@
+import { Quote } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { Quotes } from '../quotes'
 
@@ -15,7 +16,7 @@ export class FormComponent implements OnInit {
   newQuote: any;
   published: Date;
   
-  quotes = [
+  quotes: Quotes[] = [
      new Quotes('Maggy', 'Three things can never be hidden ,the sun ,the moon and the truth','date',new Date()),
      new Quotes('Teddy','PROMISE:We break them..MEMORIES: They break us','date', new Date ())
   ];
