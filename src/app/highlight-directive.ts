@@ -15,3 +15,13 @@ export class HighlightDirective {
     this.textDeco("green")
   }
 }
+
+@HostListener("dblclick") onDoubleClicks(){
+    this.textDeco("None")
+  }
+
+  private textDeco(action:string){
+    this.elem.nativeElement.style.color= action;
+  }
+
+
