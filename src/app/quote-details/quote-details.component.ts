@@ -17,13 +17,12 @@ export class QuoteDetailsComponent implements OnInit {
     this.deleteQuote.emit(removeQuote);
   }
     
-  // upvote(){
-  //   this.quote.likes+=1;
-  // }
-
-  // downvote(){
-  //   this.quote.dislikes+=1;
-  // }
+  upvote(){
+    this.quote.likes+=1;
+  }
+  downvote(){
+    this.quote.dislikes+=1;
+  }
   
   constructor() { }
 
