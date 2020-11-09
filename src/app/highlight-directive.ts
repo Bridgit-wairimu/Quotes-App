@@ -16,12 +16,12 @@ export class HighlightDirective {
   }
 }
 
-@HostListener("dblclick") onDoubleClicks(){
-    this.textDeco("None")
-  }
+// @HostListener("dblclick") onDoubleClicks(){
+//     this.textDeco("None")
+//   }
 
-  private textDeco(action:string){
-    this.elem.nativeElement.style.color= action;
-  }
+//   private textDeco(action:string){
+//     this.elem.nativeElement.style.color= action;
+//   }
 
 
