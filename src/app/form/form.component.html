@@ -4,8 +4,8 @@
     
             <h2 class="text-center">Write some quotes</h2>
             <hr>
-            <form (ngSubmit)="submitQuote()" class="formaction">
-        
+
+            <form (ngSubmit)="submitQuote()">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" required class="form-control" id="name" >
@@ -20,9 +20,6 @@
                     <label for="author">Author</label>
                     <textarea class="form-control" id="author"  required></textarea>
                 </div>
-        
-                
-        
                 <button type="submit" class=" btn  btn-success bnt-block btn-lg">Add Quote</button>
             </form>
             <div>
@@ -39,7 +36,6 @@
                 </div>
             </div>
           </div>
-        
     </div>
 </div>
 

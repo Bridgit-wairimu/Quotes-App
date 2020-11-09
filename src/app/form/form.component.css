@@ -7,12 +7,14 @@ input,textarea{
 button{
   background-color: plum;
 }
+
 .text-center{
     font-size: larger;
     color: black;
     font-weight: bold;
     font-family: 'Architects Daughter', cursive;
 }
+
 .formaction{
   background-color: silver;
 }

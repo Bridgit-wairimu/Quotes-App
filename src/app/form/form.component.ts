@@ -9,7 +9,6 @@ import { Quotes } from '../quotes'
 })
 export class FormComponent implements OnInit {
 
-
   formName: string;
   formQuote: string;
   formAuthor:  string;
@@ -18,11 +17,11 @@ export class FormComponent implements OnInit {
   
   quotes: Quotes[] = [
      new Quotes('Maggy', 'Three things can never be hidden ,the sun ,the moon and the truth','date',new Date()),
-     new Quotes('Teddy','PROMISE:We break them..MEMORIES: They break us','date', new Date ())
+     new Quotes('Teddy','PROMISE:We break them..MEMORIES: They break us','date', new Date ()),
   ];
 
   submitQuote () {
-    this.newQuote = new Quotes (this.formName, this.formQuote, this.formAuthor, new Date());
+    this.newQuote = new Quotes(this.formName, this.formQuote, this.formAuthor,new Date());
     this.quotes.push(this.newQuote);
   }
   

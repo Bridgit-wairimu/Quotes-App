@@ -6,9 +6,9 @@
             <p> {{ quote.quote }}</p>
         <a (click)= "showQuote(i)" class="btn btn-sm btn-block btn-success">See More</a>
         <app-quote-details  *ngIf="quote.displayQuote"  [quote]="quote"  (deleteQuote)="deleteThisQuote($event, i)"  ></app-quote-details>
-    
         </div>
     </div>
+    
     <div *ngIf='quotes.length < 1' class=" alert alert danger "> No quotes provided
          </div>
          <!-- <div class="col-md-6">
