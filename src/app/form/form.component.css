@@ -18,5 +18,11 @@ button{
 .formaction{
   background-color: silver;
 }
-
+ h2{
+  font-size: larger;
+    color: black;
+    font-weight: bold;
+    font-family: 'Architects Daughter', cursive;
+ 
+ }
   
