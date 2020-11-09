@@ -36,7 +36,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Setup Installation  
 .Open Terminal {Ctrl+Alt+T}
+
  .git clone https://github.com/Bridgit-wairimu/Quotes-App
+ 
  .Run ng serve from your terminal
 
 
