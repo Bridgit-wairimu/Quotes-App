@@ -10,10 +10,8 @@ export class QuoteDetailsComponent implements OnInit {
   
   @Input() quote: Quote;
   @Output() deleteQuote = new EventEmitter<boolean>();
-  quotedislikes: number;
-  quotelikes: number;
-  
-  
+
+
   delete (removeQuote: boolean) {
     this.deleteQuote.emit(removeQuote);
   }
