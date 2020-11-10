@@ -1,6 +1,6 @@
 <!-- <p> {{ quote.author }} , {{ quote.date }} </p> -->
 
-<button class="btn btn-sm btn-success" (click)='upvotes()'>{{ quotelikes}} <i class="fa fa-thumbs-up" id="like"></i></button> 
-<button class="btn btn-sm hate" (click)='downvotes()' > {{ quotedislikes }} <i class="fa fa-thumbs-down" id="dislike"></i></button><br>
+<button class="btn btn-sm btn-success" (click)='upvotes()'>{{ quote.likes}} <i class="fa fa-thumbs-up" id="like"></i></button> 
+<button class="btn btn-sm hate" (click)='downvotes()' > {{ quote.dislikes }} <i class="fa fa-thumbs-down" id="dislike"></i></button><br>
 <button (click)="delete(true)" class="btn">Delete quote</button>
 

@@ -18,12 +18,12 @@ export class QuoteDetailsComponent implements OnInit {
     this.deleteQuote.emit(removeQuote);
   }
     
-  upvotes(){
-    this.quotelikes +=1;
-  }
-  downvotes(){
-    this.quotedislikes +=1;
-  }
+  // upvotes(){
+  //   this.quote.likes +=1;
+  // }
+  // downvotes(){
+  //   this.quote.dislikes +=1;
+  // }
 
   constructor() { }
 
