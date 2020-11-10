@@ -6,8 +6,8 @@ import { Quote} from '../quote';
   templateUrl: './quote.component.html',
   styleUrls: ['./quote.component.css']
 })
+
 export class QuoteComponent implements OnInit {
-  
   
   quotes: Quote[]= [
     new  Quote('Maxwell','Success is sweet but the sweat is bitter','Bridgit Kirika' ,'20/09/2002',0,0),
