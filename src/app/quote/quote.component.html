@@ -3,7 +3,7 @@
        
         <div *ngFor='let quote of quotes; let i = index'>
             <h2>{{ quote.name }}</h2>
-            <p appHighlighquote> {{ quote.quote }} </p>
+            <p appHighlighquote> {{ quote.quote }} due on {{ quote.completeDate | date }} </p>
         <a  (click)= "showQuote(i)"  class="btn btn-sm btn-block btn-success">See More</a>
         <app-quote-details  *ngIf="quote.displayQuote"  [quote]="quote"  (deleteQuote)="deleteThisQuote($event, i)"  ></app-quote-details>
         </div>
