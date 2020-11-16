@@ -1,5 +1,5 @@
 import { Quote } from '@angular/compiler';
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit } from '@angular/core';
 import { Quotes } from '../quotes';
 
 @Component({
@@ -24,9 +24,6 @@ export class FormComponent implements OnInit {
     this.quotes.push(this.newQuote);
   }
 
-  newDate(): Date {
-    throw new Error('Method not implemented.');
-  }
 
   constructor() { }
 
